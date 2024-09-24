@@ -51,7 +51,7 @@ class MemberApiTest extends TestSupport {
                                 pathParameters(
                                         parameterWithName("id").description("Member ID")
                                 ),
-                                responseFields(
+                                 responseFields(
                                         fieldWithPath("id").description("ID"),
                                         fieldWithPath("name").description("name"),
                                         fieldWithPath("email").description("email")
